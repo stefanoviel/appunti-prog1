@@ -44,7 +44,7 @@ Questo tipo di schematizzazione, essendo molto ottimizzata e mettendo subito in 
 
 Un accortezza: con questa struttura è facile prendere due grafi uguali come diversi. I grafi si dicono **isomorfi** se hanno le stesse caratteristiche in termini di nodi e archi.
 
-![image-20201110233258123](C:\Users\giova\AppData\Roaming\Typora\typora-user-images\image-20201110233258123.png)
+![image-20201110233258123](C:\Users\giova\Documents\1_UNI\programmazione1\finals\appunti-prog1\image\image-20201110233258123.png)
 
 
 
@@ -96,7 +96,7 @@ Parlando di linguaggi di programmazione, bisogna dire anche qualcosa sull'astraz
 1. se il linguaggio è di bassissimo livello, quindi troppo vicino alla macchina è difficile programmare.
 2. se il linguaggio è troppo di alto livello, quindi molto vicino al linguaggio del programmatore, i programmi diventano inefficienti.
 
-![image-20201111001022024](C:\Users\giova\AppData\Roaming\Typora\typora-user-images\image-20201111001022024.png)
+![image-20201111001022024](C:\Users\giova\Documents\1_UNI\programmazione1\finals\appunti-prog1\image\image-20201111001022024.png)
 
 Agli albori dell'informatica si programmava in linguaggio macchina, cioè compreso direttamente dalla macchina. 
 
@@ -110,9 +110,9 @@ Ad oggi esistono tantissimi linguaggi di programmazione, ognuno con il suo scopo
 
 Gli algoritmi possono essere schematizzati anche attraverso diagrammi di flusso, cioè blocchi orientati che hanno un significato proprio.
 
-![image-20201111002115408](C:\Users\giova\AppData\Roaming\Typora\typora-user-images\image-20201111002115408.png)
+![image-20201111002115408](C:\Users\giova\Documents\1_UNI\programmazione1\finals\appunti-prog1\image\image-20201111002115408.png)
 
-![image-20201111002130617](C:\Users\giova\AppData\Roaming\Typora\typora-user-images\image-20201111002130617.png)
+![image-20201111002130617](C:\Users\giova\Documents\1_UNI\programmazione1\finals\appunti-prog1\image\image-20201111002130617.png)
 
 CARATTERISTICHE: 
 
@@ -141,7 +141,7 @@ Dopo la seconda guerra mondiale inizia effettivamente lo sviluppo di una macchin
 
 La miniaturizzazione che è avvenuta è dovuta alla possibilità di dimezzare la grandezza del transistor per un certa quantità di volte, data dalla legge di Moore.
 
-![img](https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Transistor_Count_and_Moore%27s_Law_-_2011.svg/290px-Transistor_Count_and_Moore%27s_Law_-_2011.svg.png)
+![img](C:\Users\giova\Documents\1_UNI\programmazione1\finals\appunti-prog1\image\290px-Transistor_Count_and_Moore's_Law_-_2011.svg.png)
 
 
 
@@ -149,13 +149,13 @@ Moore infatti nel 1965 ipotizza che il numero di transistor inseribili nei micro
 
 Per aumentare ancora più le prestazioni si cerca di aumentare il clock dei processori stessi. Il **clock** di un processore è il dato che indica la quantità di calcoli può fare al secondo. Al momento il dato del clock è pressoché fermo intorno al dato di 3gHz. Questo stop è dovuto al problema fisico per cui aumentando troppo il clock, il calore emesso diventa esponenzialmente maggiore. Di conseguenza quando si sono provati clock più alti si ha avuto problemi di gestione delle temperature eccessivamente alte. Per ovviare questo problema si apre un'altra strada: il multithreading o clock distribuito ad albero. Questo permette di passare il clock in tutte le parti del processore e rendere quindi i processi sincronizzati, utilizzando la potenza di tutte le parti assieme e quindi garantendo una maggior potenza.
 
-![image-20201111171947392](C:\Users\giova\AppData\Roaming\Typora\typora-user-images\image-20201111171947392.png)
+![image-20201111171947392](C:\Users\giova\Documents\1_UNI\programmazione1\finals\appunti-prog1\image\image-20201111171947392.png)
 
 ##### 	Organizzare il software di un calcolatore
 
 Il normale schema di un calcolatore è (generalmente) così costruito:
 
-![image-20201111172243268](C:\Users\giova\AppData\Roaming\Typora\typora-user-images\image-20201111172243268.png)
+![image-20201111172243268](C:\Users\giova\Documents\1_UNI\programmazione1\finals\appunti-prog1\image\image-20201111172243268.png)
 
 Per leggere questo schema bisogna capire che: 
 
@@ -166,7 +166,7 @@ Per leggere questo schema bisogna capire che:
 
 ##### 	Architettura Hardware:
 
-![image-20201111172642835](C:\Users\giova\AppData\Roaming\Typora\typora-user-images\image-20201111172642835.png)
+![image-20201111172642835](.\image\image-20201111172642835.png)
 
 
 
@@ -202,7 +202,7 @@ La memoria quindi com'è fatta? Appare come una lista di word cioè un mattoncin
 
 Per questo motivo in memoria non si può accedere a valori più grandi di 2^16 e non si può accedere all'indirizzo 1024.
 
-<img src="C:\Users\giova\AppData\Roaming\Typora\typora-user-images\image-20201111185631084.png" alt="image-20201111185631084" style="zoom:80%;" />
+<img src="C:\Users\giova\Documents\1_UNI\programmazione1\finals\appunti-prog1\image\image-20201111185631084.png" alt="image-20201111185631084" style="zoom:80%;" />
 
 Però poi a questa memoria si deve poter accedere, quindi nella CPU esistono dei registri, che sono word di memoria chiamate così per distinguerle da quelle in memoria centrale. Questi registri possono essere:
 
@@ -228,11 +228,11 @@ Il BIT (derivato da Bynary digIT) è quindi l'unità elementare dell'informazion
 
 Essendo tutto codificabile attraverso il bit, allora sono state inventate strutture per contenere la rappresentazione figurata della realtà. Ad esempio la convenzione ASCII, poi diventata extended-ASCII, ha codificato i caratteri come sequenza di 8bit, il **byte**.
 
-<img src="C:\Users\giova\AppData\Roaming\Typora\typora-user-images\image-20201111184647324.png" alt="image-20201111184647324" style="zoom: 80%;" />
+<img src="C:\Users\giova\Documents\1_UNI\programmazione1\finals\appunti-prog1\image\image-20201111184647324.png" alt="image-20201111184647324" style="zoom: 80%;" />
 
 Per i multipli del byte si adottano gli stessi simboli del sistema decimale, ma visto che gli elementi sono in base 2, il fattore di scala è leggermente diverso:
 
-<img src="C:\Users\giova\AppData\Roaming\Typora\typora-user-images\image-20201111184937248.png" alt="image-20201111184937248" style="zoom:80%;" />
+<img src="C:\Users\giova\Documents\1_UNI\programmazione1\finals\appunti-prog1\image\image-20201111184937248.png" alt="image-20201111184937248" style="zoom:80%;" />
 
 ###### Funzionamento della CPU:
 
@@ -243,7 +243,7 @@ Innanzitutto bisogna dire che:
 3.  Durante ogni intervallo di tempo **l'unità di controllo** (che fa parte del processore) stabilisce la funzione da svolgere.
 4. L'intera macchina opera in maniera sequenziale (però architetture più evolute prevedono l'esecuzione parallela delle istruzioni).
 
-<img src="C:\Users\giova\AppData\Roaming\Typora\typora-user-images\image-20201111191808017.png" alt="image-20201111191808017" style="zoom:80%;" />
+<img src="C:\Users\giova\Documents\1_UNI\programmazione1\finals\appunti-prog1\image\image-20201111191808017.png" alt="image-20201111191808017" style="zoom:80%;" />
 
 Come si vede dall'immagine la CPU ha a disposizione vari elementi:
 
@@ -310,7 +310,7 @@ Possono essere: fissi o rimovibili, ad accesso sequenziale o casuale, dispositiv
 
 ###### L'interfaccia delle Periferiche
 
-<img src="C:\Users\giova\AppData\Roaming\Typora\typora-user-images\image-20201112230056001.png" alt="image-20201112230056001" style="zoom:80%;" />
+<img src="C:\Users\giova\Documents\1_UNI\programmazione1\finals\appunti-prog1\image\image-20201112230056001.png" alt="image-20201112230056001" style="zoom:80%;" />
 
 Comunicare con le periferiche può essere complicato, infatti se si dovesse avere del codice per parlare con ogni singola periferica il lavoro del programmatore diventerebbe impossibile. Per questo esiste un'interfaccia, che fa come da traduttore tra il linguaggio della periferica e la macchina.
 
@@ -338,7 +338,7 @@ Tra le periferiche sono presenti anche i terminali, cioè qualunque dispositivo 
 
 ### 1.3) Architettura software di un compilatore:
 
-<img src="C:\Users\giova\AppData\Roaming\Typora\typora-user-images\image-20201112231919938.png" alt="image-20201112231919938" style="zoom:80%;" />
+<img src="C:\Users\giova\Documents\1_UNI\programmazione1\finals\appunti-prog1\image\image-20201112231919938.png" alt="image-20201112231919938" style="zoom:80%;" />
 
 Con il termine *sistema operativo* intendiamo l'insieme di programmi che opera direttamente sulla macchina fisica, fornendo interfacce di alto livello e mascherandone le caratteristiche specifiche delle periferiche e del processore. Questo ad esempio è molto utile nella gestione delle periferiche, perché permette di fornire un metodo *consistente* delle periferiche, ovvero una modalità standard di interfacciarsi con le periferiche disponibili senza dover eseguire comandi di basso livello. Importante notare inoltre che il sistema operativo è l'unico elemento con accesso diretto alle risorse hardware, e si riesce ad accedervi in altro modo direttamente probabilmente abbiamo un problema.
 
