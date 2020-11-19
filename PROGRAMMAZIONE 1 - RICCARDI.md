@@ -44,7 +44,7 @@ Questo tipo di schematizzazione, essendo molto ottimizzata e mettendo subito in 
 
 Un accortezza: con questa struttura è facile prendere due grafi uguali come diversi. I grafi si dicono **isomorfi** se hanno le stesse caratteristiche in termini di nodi e archi.
 
-![image-20201110233258123](.\image\image-20201110233258123.png)
+<img src=".\image\image-20201110233258123.png" />
 
 
 
@@ -94,9 +94,10 @@ Il linguaggio di programmazione deve essere **rigoroso e preciso** dal punto di 
 Parlando di linguaggi di programmazione, bisogna dire anche qualcosa sull'astrazione del linguaggio: 
 
 1. se il linguaggio è di bassissimo livello, quindi troppo vicino alla macchina è difficile programmare.
+
 2. se il linguaggio è troppo di alto livello, quindi molto vicino al linguaggio del programmatore, i programmi diventano inefficienti.
 
-![image-20201111001022024](.\image\image-20201111001022024.png)
+   <img src=".\image\image-20201111001022024.png" alt="image-20201111002130617" style="zoom:80%;" />
 
 Agli albori dell'informatica si programmava in linguaggio macchina, cioè compreso direttamente dalla macchina. 
 
@@ -110,9 +111,9 @@ Ad oggi esistono tantissimi linguaggi di programmazione, ognuno con il suo scopo
 
 Gli algoritmi possono essere schematizzati anche attraverso diagrammi di flusso, cioè blocchi orientati che hanno un significato proprio.
 
-<img src=".\image\image-20201111002115408.png" alt="image-20201111002115408" style="zoom:80%;float"  />
+<img src=".\image\image-20201111002115408.png" alt="image-20201111002115408" style="zoom:80%;"  />
 
-![image-20201111002130617](.\image\image-20201111002130617.png)
+<img src=".\image\image-20201111002130617.png" alt="image-20201111002130617" />
 
 CARATTERISTICHE: 
 
@@ -166,7 +167,7 @@ Per leggere questo schema bisogna capire che:
 
 ##### 	Architettura Hardware:
 
-![image-20201111172642835](.\image\image-20201111172642835.png)
+<img src=".\image\image-20201111172642835.png"/>
 
 
 
