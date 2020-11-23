@@ -1,3 +1,18 @@
+---
+​---
+title: "Appunti Programmazione 1 - Riccardi"
+author: [Giovanni Foletto, Enrico Carnelos]
+date: "2020-11-21"
+book: true
+classoption: [oneside]
+titlepage: true
+titlepage-text-color: "FFFFFF" 
+titlepage-rule-color: "360049" 
+titlepage-rule-height: 0 
+titlepage-background: "background.pdf"
+...
+---
+
 Giovanni Foletto - Primo anno ICE
 
 # PROGRAMMAZIONE 1 - RICCARDI
@@ -347,5 +362,60 @@ Il sistema operativo è il modo che consente ai programmi di ottenere risorse da
 
 #### 	Storia dei sistemi operativi:
 
+Nel 1982 Kernigham introduce Unix, prodotto dai laboratori AT&T, che al tempo avevano grandi esigenze di un ecosistema stabile e uguale su cui sviluppare applicazioni. Caratteristica principale: poteva servire più utenti contemporaneamente, usando il multitasking. Tutti gli utenti infatti hanno un ordine di esecuzione al processore, ma sono tutti nell'ordine del proprio utente. Da Unix poi si svilupperanno tutti i sistemi operativi che tuttora conosciamo (Come MS-DOS o Linux).
+
+<img src=".\image\image-20200930171019756.png" alt="image-20200930171019756" style="zoom:80%;" />
+
+Architettura di un SO, che ad oggi è organizzato secondo un architettura a *strati* (anche detta *onion skin architecture*). Ogni strato fornisce un astrazione dello strato sui cui si appoggia e permette una chiara separazione tra interfaccia e implementazione delle diverse funzionalità, oltre che a fornire l'insieme di programmi e librerie.
+
+<img src=".\image\image-2020112323365770.png" alt="image-20201123233657990" style="zoom:80%;" />
+
+Il *kernel* del sistema operativo, ovvero il cuore dell'OS si occupa di:
+
+- gestione periferiche (I/O informazioni)
+- gestione memoria (Fornisce/non fornisce al memoria in base al carico del momento, stabilisce il tipo di memoria da fornire)
+- gestione dei processi
+
+Un processo è un entità dinamica, contrariamente al programma, infatti viene causato dal codice in esecuzione (*programma*) e dal suo stato di esecuzione (es. valore delle sue variabili).
+
+Un processo è quindi un insieme di due elementi:
+
+- E: il codice eseguibile del programma (questo fa partire il fetch per creare un processo)
+- S: lo stato del processo
+
+Logicamente il processo non viene gestito direttamente dal processore reale, se no verrebbe meno il concetto di multitasking. Il processore crea dei processori virtuali che si comportano similmente e che possono essere assegnati a un processo.
 
 
+
+<img src="C:\Users\giova\Documents\1_UNI\programmazione1\finals\appunti-prog1\image\image-20201123234616173.png" alt="image-20201123234616178" style="zoom:80%;" />
+
+Nel processore è possibile che ci sia un solo processo in esecuzione in ogni istante, mentre gli altri processi sono pronti o in attesa. Ad ogni processo viene assegnato un valore massimo di tempo di esecuzione, scaduto tale viene revocato il processore virtuale e assegnato a un altro processo. Questa tecnica è detta di time-sharing, viene eseguito dal nucleo che decide da quali processi devono andare in esecuzione determinando lo *scheduling*, che è sequenziale. La soluzione tipica per la gestione del tempo di esecuzione di processi è a turno (*round-robin*, tutti i processi in questo hanno la stessa priorità ad essere eseguiti, nella realtà non funziona perché alcuni processi hanno la priorità). La CPU viene rilasciata anche quando un processo sta aspettando un I/O da/verso una periferica.
+
+<img src=".\image\image-20201123235406308.png" alt="image-20201123235409308" style="zoom:80%;" />
+
+In questa complicata gestione delle risorse prende parte anche la gestione della memoria, che pensa al partizionamento della memoria tra i vari processi che la richiedono garantendo la protezione/separazione fra le diverse zone allocate. Il gestore memoria gestisce anche la memoria che va assegnata ai processi, e quando i processi finisco la memoria fisica si occupa di creare una memoria virtuale (più lenta di solito, chiamata SWAP o semplicemente memoria virtuale) e assegnare quella memoria.
+
+
+
+## THE C PROGRAMMING LANGUAGE:
+
+Ci sono principalmente 3 tipi di programmazione:
+
+* programmazione per HARDWARE, ovvero la programmazione di dispositivi fisico/logici il cui il linguaggio di programmazione coincide con il linguaggio macchina. 
+* programmazione per FIRMWARE, ovvero la programmazione che usa un'insieme comune di istruzioni mediante assembly, ovvero linguaggio di programmazione molto basso
+* programmazione per SOFTWARE, ovvero programmare in un linguaggio intermedio che simula le funzionalità della macchina fisica, che per questo permette maggiore flessibilità (nel senso che posso realizzare un gran numero di programmi diversi e con funzioni diverse), ma che ha un utilizzo delle risorse meno efficiente.
+
+Il sistema operativo prende parte molto nell'ultimo caso, infatti è suo il compito di fornirci le periferiche necessarie a fornire la traduzione da linguaggio macchina (che usano ad esempio nella programmazione firmware) e il codice. L'OS si occupa anche dell'astrazione degli oggetti e/o delle istruzioni complesse di alto livello.
+
+### Diffusione dei linguaggi e Perché il C
+
+Ci sono tantissimi linguaggi di programmazione creati o utilizzati per specifici utilizzi in cui sono molto apprezzati. Linguaggi più standard di medio-basso livello come il C o il C++ permettono una maggior comprensione del funzionamento della maggior parte degli altri linguaggi, che in alcuni casi forniscono astrazioni alle strutture di basso livello ancora presenti in questi.
+
+Il C presenta una serie di elementi che lo rendono importante da imparare:
+
+* permette l'allocazione dinamica e altri aspetti normalmente di alto livello, a un livello basso.
+* gestione della memoria molto manuale
+* linguaggio apprezzato/richiesto dalle aziende
+* ha un astrazione che è posizionata tra il medio e il basso livello, motivo per cui è molto utile per ad. es. embedded system.
+
+Il linguaggio C è stato creato nel 1972 da Kernighan e Ritchie ai Bell Tel. Labs. 
