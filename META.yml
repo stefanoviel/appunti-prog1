@@ -1,0 +1,11 @@
+
+title: "Appunti Programmazione 1 - Riccardi"
+author: [Giovanni Foletto, Enrico Carnelos]
+date: "2020-11-21"
+book: true
+classoption: [oneside]
+titlepage: true
+titlepage-text-color: "FFFFFF" 
+titlepage-rule-color: "360049" 
+titlepage-rule-height: 0 
+titlepage-background: "background.pdf"
