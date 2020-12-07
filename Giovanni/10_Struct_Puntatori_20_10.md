@@ -144,7 +144,7 @@ Il **dot operator** è in cima alla tabella delle precedenze di traduzione, in l
 Se all'interno dello struct è dichiarato un campo che a sua volta è uno struct, allora il dot operator sarà riutilizzato fino ad ottenere il campo ricercato.
 
 ```c
-struct DAta{				// definizione
+struct Data{				// definizione
 	int giorno;
 	int mese;
 	int anno;

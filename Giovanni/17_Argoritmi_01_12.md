@@ -18,7 +18,7 @@ Di conseguenza si parte con due array, uno vuoto e uno pieno di valori. Si prend
 
 ### Complessità di un algoritmo:
 
-![image-20201201115515049](C:\Users\giova\Documents\1_UNI\programmazione1\appunti\image\image-20201201115515049.png)
+![image-20201201115515049](.\image\image-20201201115515049.png)
 
 perchè questo array cosa O(N^2)? 
 

@@ -105,7 +105,7 @@ x = x ^ y; // x == (A ^ B) ^ A
 
 Analisi dell'efficienza di un algoritmo e algoritmi sequenziali.
 
-![image-20201204173739728](C:\Users\giova\Documents\1_UNI\programmazione1\appunti\image\image-20201204173739728.png)
+![image-20201204173739728](.\image\image-20201204173739728.png)
 
 Con due algoritmi diversi, se l'algoritmo è più efficiente lo è sempre in base all'architettura. 
 
@@ -133,7 +133,7 @@ Legato a questo avremo 3 casi:
 2. caso peggiore
 3. caso migliore
 
-![image-20201204180334935](C:\Users\giova\Documents\1_UNI\programmazione1\appunti\image\image-20201204180334935.png)
+![image-20201204180334935](.\image\image-20201204180334935.png)
 
 #### Ricerca sequenziale in un gruppo non ordinato. CASO PEGGIORE:
 
@@ -214,7 +214,7 @@ Se ci sono questi requisiti, si può sfruttare la ricerca dicotomica. Si cerca l
 
 In questo caso si elimina metà dell'insieme ogni operazione.
 
-![image-20201206183123802](C:\Users\giova\Documents\1_UNI\programmazione1\appunti\image-20201206183123802.png)
+![](./image/image-20201206183123802.png)
 
 Si da per scontato che l'insieme sia ordinato. 
 
@@ -276,7 +276,7 @@ Questa inoltre è la prova che il logaritmo di ricerca dicotomica va meglio dell
 
 Si ricorda che la crescita logaritmica permette di avere un tempo di esecuzione che cresce molto lentamente nel tempo, rispetto ad altri.
 
-![image-20201206185058752](C:\Users\giova\Documents\1_UNI\programmazione1\appunti\image\image-20201206185058752.png)
+![](./image/image-20201206185058752.png)
 
 
 
